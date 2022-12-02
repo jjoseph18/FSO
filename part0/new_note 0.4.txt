@@ -1,0 +1,16 @@
+title Untitled
+
+note left of Client: Person inserts text and hit submit
+
+Client->Server: POST request https://studies.cs.helsinki.fi/exampleapp/new_note
+Server->Client: 302 response code
+Client->Server: GET request https://studies.cs.helsinki.fi/exampleapp/notes
+Server->Client: HTML code
+Client->Server: GET request https://studies.cs.helsinki.fi/exampleapp/main.css
+Server->Client: main.css
+Client->Server: GET request https://studies.cs.helsinki.fi/exampleapp/main.js
+Server->Client: main.js
+Client->Server: GET request https://studies.cs.helsinki.fi/exampleapp/data.json
+Server->Client: data.json
+Client->Server: https://studies.cs.helsinki.fi/favicon.ico
+Server->Client: favicon.ico

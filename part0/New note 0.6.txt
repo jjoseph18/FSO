@@ -1,0 +1,5 @@
+title Untitled
+
+note left of Client: Person inserts text and hit submit
+
+Client->Server: POST request sent to /exampleapp/new_note_spa

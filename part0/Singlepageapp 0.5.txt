@@ -1,0 +1,9 @@
+title Untitled
+
+note left of Client: Person clicks on https://studies.cs.helsinki.fi/exampleapp/spa link
+
+Client->Server: GET request to https://studies.cs.helsinki.fi/exampleapp/spa
+Client->Server: GET request to get CSS detailed in first GET request
+Client->Server: GET request to get Javascript file detailed in first GET request
+Client->Server: GET request to get data.json file [{"content":"piuto","date ...
+Client->Server: GET request to get the icon favicon.ico
